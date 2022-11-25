@@ -5,7 +5,7 @@ import org.junit.Test;
 import java.util.List;
 import static org.junit.Assert.assertEquals;
 
-public class FelineEatMeatTests {
+public class FelineTestEatMeat {
     Feline feline = new Feline();
 
     @Test
