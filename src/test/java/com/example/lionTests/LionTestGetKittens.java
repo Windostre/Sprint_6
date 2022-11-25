@@ -2,7 +2,6 @@ package com.example.lionTests;
 
 import com.example.Feline;
 import com.example.Lion;
-import com.example.Predator;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.Mock;
@@ -12,7 +11,7 @@ import org.mockito.junit.MockitoJUnitRunner;
 import static org.junit.Assert.assertEquals;
 
 @RunWith(MockitoJUnitRunner.class)
-public class LionTestGetKitten {
+public class LionTestGetKittens {
 
     @Mock
     Feline predator;
