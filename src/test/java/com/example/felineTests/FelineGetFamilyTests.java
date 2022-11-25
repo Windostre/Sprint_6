@@ -6,10 +6,11 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class FelineGetFamilyTests {
-    
+
+    Feline feline = new Feline();
     @Test
     public void getFamilyTest() {
-        Feline feline = new Feline();
+
         String actual = feline.getFamily();
         String expected = "Кошачьи";
         assertEquals(actual, expected);
