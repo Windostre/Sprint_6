@@ -1,5 +1,6 @@
 package com.example.lionTests;
 
+import com.example.Feline;
 import com.example.Lion;
 import com.example.Predator;
 import org.junit.Test;
@@ -14,7 +15,7 @@ import static org.junit.Assert.assertEquals;
 public class LionTestGetKitten {
 
     @Mock
-    Predator predator;
+    Feline predator;
 
     @Test
     public void getKittensArgument0lReturns0() throws Exception {
