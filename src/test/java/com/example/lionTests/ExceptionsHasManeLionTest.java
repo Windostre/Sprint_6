@@ -7,8 +7,6 @@ import org.junit.runner.RunWith;
 import org.mockito.Mock;
 import org.mockito.junit.MockitoJUnitRunner;
 
-import java.lang.reflect.Executable;
-
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertThrows;
 
