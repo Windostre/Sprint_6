@@ -2,17 +2,13 @@ package com.example.alexTest;
 
 import com.example.Alex;
 import com.example.Feline;
-import com.example.Lion;
-import com.example.Main;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.Mock;
-import org.mockito.Mockito;
 import org.mockito.junit.MockitoJUnitRunner;
 
 import java.util.List;
 
-import static org.junit.Assert.*;
 import static org.junit.Assert.assertEquals;
 
 @RunWith(MockitoJUnitRunner.class)
