@@ -2,10 +2,12 @@ package com.example.alexTest;
 
 import com.example.Alex;
 import com.example.Feline;
+import com.example.Lion;
 import com.example.Main;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.Mock;
+import org.mockito.Mockito;
 import org.mockito.junit.MockitoJUnitRunner;
 
 import java.util.List;
@@ -18,7 +20,6 @@ public class AlexTest {
 
     @Mock
     Feline feline;
-
 
 
     @Test
@@ -40,5 +41,11 @@ public class AlexTest {
     public void getKittens() throws Exception {
         Alex alex = new Alex(feline);
         assertEquals(0, alex.getKittens());
+    }
+    @Test
+    public void hasMaleReturnTrue() throws Exception {
+        Alex alex = new Alex(feline);
+        assertEquals(alex.doesHaveMane(), true);
+
     }
 }
