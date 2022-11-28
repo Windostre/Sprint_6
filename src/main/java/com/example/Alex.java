@@ -2,12 +2,16 @@ package com.example;
 
 import java.util.List;
 
+
 public class Alex extends Lion {
 
-    String sex = "Самец";
-    public Alex( Feline feline) throws Exception {
+
+
+    public Alex(Feline feline) throws Exception {
         super("Самец", feline);
     }
+
+    //String sex;
 
     public String getPlaceOfLiving() {
         return "Нью-Йоркский зоопарк";
